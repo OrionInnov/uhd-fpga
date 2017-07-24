@@ -6,7 +6,7 @@ module eth_interface
     parameter XO_FIFOSIZE=10,
     parameter ZPU_FIFOSIZE=10,
     parameter VITA_FIFOSIZE=10,
-    parameter ETHOUT_FIFOSIZE=10)
+    parameter ETHOUT_FIFOSIZE=16)
    (input clk, input reset, input clear,
     input set_stb, input [7:0] set_addr, input [31:0] set_data,
     // Eth ports
